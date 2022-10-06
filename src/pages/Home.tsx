@@ -1,3 +1,4 @@
+import Profile from "../components/Profile";
 import WorkingCrab from "../components/WorkingCrab";
 
 interface HomeProps {
@@ -6,11 +7,8 @@ interface HomeProps {
 
 const Home = (props: HomeProps) => {
   return (
-    <div className="flex flex-col  justify-center">
-      <span className="flex flex-col p-4 text-gray-200 text-4xl font-thin pl-48">
-        Guillaume Odile
-      </span>
-      <div className="text-gray-200 font-thin text-xl pl-80">Crab-attitude</div>
+    <div className="flex flex-col items-center w-full h-full -z-10">
+      <Profile />
       <WorkingCrab />
     </div>
   );

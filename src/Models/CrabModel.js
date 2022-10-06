@@ -32,11 +32,11 @@ export default function Model(props) {
         position={new Vector3(6, -8, -2)}
       >
         <planeGeometry args={[48, 48]} />
-        <meshStandardMaterial color={"#eeeeee"} side={DoubleSide} />
+        <meshStandardMaterial color={"#3F3F46"} side={DoubleSide} />
       </mesh>
       <spotLight
         castShadow
-        args={["#aaaaaa", 3, 0, Math.PI / 6, 0.4]}
+        args={["#aaaaaa", 0.5, 0, Math.PI / 6, 0.4]}
         position={[-1, 40, -1]}
       />
     </group>
