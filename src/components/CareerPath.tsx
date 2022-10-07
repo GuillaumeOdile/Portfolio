@@ -78,7 +78,7 @@ const CareerPath = () => {
               Gojob Locker
             </a>
             , un casier connecté avec une application ReactNative, qui est
-            aujourd’hui disponible à l'international 🌎.
+            maintenant disponible à travers le globe 🌎.
           </p>
         </div>
 

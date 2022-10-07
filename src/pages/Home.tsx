@@ -1,4 +1,5 @@
 import CareerPath from "../components/CareerPath";
+import MyArticles from "../components/MyArticles";
 import Profile from "../components/Profile";
 import WorkingCrab from "../components/WorkingCrab";
 
@@ -15,6 +16,7 @@ const Home = (props: HomeProps) => {
       <div className="flex flex-col items-center relative pt-16 max-w-xl">
         <Profile />
         <CareerPath />
+        <MyArticles />
       </div>
     </div>
   );
