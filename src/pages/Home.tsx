@@ -9,7 +9,7 @@ interface HomeProps {
 const Home = (props: HomeProps) => {
   return (
     <div className="flex justify-center">
-      <div className="absolute w-full h-full -z-10">
+      <div className="fixed w-full h-full -z-10 bg-scroll">
         <WorkingCrab />
       </div>
       <div className="flex flex-col items-center relative pt-16 max-w-xl">

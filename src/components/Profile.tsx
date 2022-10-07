@@ -3,7 +3,7 @@ import guillaumeOdile from "../images/guillaumeOdile.png";
 
 const Profile = () => {
   return (
-    <div className="rounded-3xl w-full bg-slate-900 bg-opacity-50">
+    <div className="rounded-3xl w-full bg-slate-900 bg-opacity-70">
       <div className="justify-center items-center text-center">
         <div className="inline-flex flex-col text-left m-8">
           <span className=" text-gray-200 text-4xl">Guillaume Odile</span>
