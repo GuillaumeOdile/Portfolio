@@ -1,3 +1,4 @@
+import CareerPath from "../components/CareerPath";
 import Profile from "../components/Profile";
 import WorkingCrab from "../components/WorkingCrab";
 
@@ -7,9 +8,14 @@ interface HomeProps {
 
 const Home = (props: HomeProps) => {
   return (
-    <div className="flex flex-col items-center w-full h-full -z-10">
-      <Profile />
-      <WorkingCrab />
+    <div className="flex justify-center">
+      <div className="absolute w-full h-full -z-10">
+        <WorkingCrab />
+      </div>
+      <div className="flex flex-col items-center relative pt-16 max-w-xl">
+        <Profile />
+        <CareerPath />
+      </div>
     </div>
   );
 };

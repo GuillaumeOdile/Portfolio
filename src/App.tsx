@@ -4,7 +4,7 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div className="h-screen bg-slate-800">
+    <div className="h-screen">
       <Home />
     </div>
   );

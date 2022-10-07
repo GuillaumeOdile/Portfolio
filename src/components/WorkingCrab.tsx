@@ -13,7 +13,7 @@ const WorkingCrab = () => {
   return ready ? (
     <Canvas
       camera={{ position: [150, 50, 50], fov: 15 }}
-      className="fixed w-full h-full bg-zinc-700"
+      className="bg-zinc-700"
       shadows
     >
       <ambientLight intensity={0.9} />
