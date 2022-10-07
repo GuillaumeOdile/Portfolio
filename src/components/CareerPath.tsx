@@ -62,11 +62,11 @@ const CareerPath = () => {
       <div className="flex flex-row">
         <span className="text-gray-200 text-3xl pr-4">2021</span>
         <p className="text-gray-300 text-lg">
-          Je déménage pour Cassis, et suis recruté chez{" "}
+          Je déménage sur Cassis, et suis recruté chez{" "}
           <a href="https://gojob.com/" className="text-orange-500">
             Gojob
           </a>
-          , une startup dans laquelle j'apprend énormément sur le développement
+          , une startup dans laquelle j'apprends énormément sur le développement
           web grâce à des pairs de grande qualité ainsi qu'une culture
           d'entreprise priorisant l'apprentissage. Ils m'ont fait confiance pour
           développer le{" "}
