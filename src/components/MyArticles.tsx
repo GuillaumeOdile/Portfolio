@@ -2,6 +2,7 @@ import React from "react";
 import reduxThunk from "../images/reduxThunk.png";
 import clean from "../images/clean.png";
 import gitLogo from "../images/gitLogo.png";
+import AnimatedHover from "./AnimatedHover";
 
 const MyArticles = () => {
   return (
@@ -21,14 +22,14 @@ const MyArticles = () => {
             href="https://tech.gojob.com/git-tricks/"
             className="flex flex-col items-center space-y-4 sm:text-2xl text-xl font text-gray-300 text-center"
           >
-            <div className="relative group w-full">
-              <div className="absolute rounded-3xl -inset-1 blur bg-gradient-to-r from-pink-600 to-purple-600 opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt" />
+            <AnimatedHover>
               <img
                 src={gitLogo}
                 className="relative rounded-3xl object-cover aspect-auto max-w-sm w-full h-48 transition duration-1000 group-hover:duration-200"
                 alt="git tricks"
               />
-            </div>
+            </AnimatedHover>
+
             <span>Comment gagner du temps avec git</span>
           </a>
 
@@ -36,28 +37,27 @@ const MyArticles = () => {
             href="https://tech.gojob.com/clean-archi-uncle-bob/"
             className="flex flex-col items-center space-y-4 sm:text-2xl text-xl font text-gray-300 text-center"
           >
-            <div className="relative group w-full">
-              <div className="absolute rounded-3xl -inset-1 blur bg-gradient-to-r from-pink-600 to-purple-600 opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt" />
+            <AnimatedHover>
               <img
                 src={clean}
                 className="relative rounded-3xl object-cover aspect-auto max-w-sm w-full h-48 transition duration-1000 group-hover:duration-200"
                 alt="clean architecture"
               />
-            </div>
+            </AnimatedHover>
+
             <span>Les bases de la clean architecture</span>
           </a>
           <a
             href="https://tech.gojob.com/redux-thunk-typescript/"
             className="flex flex-col items-center space-y-4 sm:text-2xl text-xl font text-gray-300 text-center"
           >
-            <div className="relative group w-full">
-              <div className="absolute rounded-3xl -inset-1 blur bg-gradient-to-r from-pink-600 to-purple-600 opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt" />
+            <AnimatedHover>
               <img
                 src={reduxThunk}
                 className="relative rounded-3xl object-cover aspect-auto max-w-sm w-full h-48 transition duration-1000 group-hover:duration-200"
                 alt="redux thunk"
               />
-            </div>
+            </AnimatedHover>
             <span>Redux-thunk</span>
           </a>
         </div>
