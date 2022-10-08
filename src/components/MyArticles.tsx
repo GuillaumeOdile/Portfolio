@@ -2,20 +2,20 @@ import React from "react";
 import reduxThunk from "../images/reduxThunk.png";
 import clean from "../images/clean.png";
 import gitLogo from "../images/gitLogo.png";
-import AnimatedHover from "./AnimatedHover";
-import Card from "./Card";
+import AnimatedHover from "./styles/AnimatedHover";
+import Card from "./styles/Card";
+import Title from "./styles/Title";
+import LeftCenteredParagraph from "./styles/LeftCenteredParagraph";
 
 const MyArticles = () => {
   return (
     <Card className="flex flex-col space-y-8 p-8">
-      <span className=" text-gray-200 text-4xl underline decoration-emerald-300">
-        Articles tech
-      </span>
+      <Title>Articles tech</Title>
 
-      <p className="flex text-gray-300 text-lg text-left">
+      <LeftCenteredParagraph>
         Le blog ici est en cours de construction 🚧 mais vous pouvez déjà
         accéder à 3 articles que j'ai écris précédemment:
-      </p>
+      </LeftCenteredParagraph>
 
       <div className="flex flex-col justify-center space-y-14">
         <a

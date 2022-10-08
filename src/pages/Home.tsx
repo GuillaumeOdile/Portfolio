@@ -1,4 +1,5 @@
 import CareerPath from "../components/CareerPath";
+import FavoriteStack from "../components/FavoriteStack";
 import MyArticles from "../components/MyArticles";
 import Profile from "../components/Profile";
 import WorkingCrab from "../components/WorkingCrab";
@@ -17,6 +18,7 @@ const Home = (props: HomeProps) => {
         <Profile />
         <CareerPath />
         <MyArticles />
+        <FavoriteStack />
       </div>
     </div>
   );

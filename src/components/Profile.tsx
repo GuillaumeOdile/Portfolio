@@ -1,6 +1,6 @@
 import React from "react";
 import guillaumeOdile from "../images/guillaumeOdile.png";
-import Card from "./Card";
+import Card from "./styles/Card";
 
 const Profile = () => {
   return (
