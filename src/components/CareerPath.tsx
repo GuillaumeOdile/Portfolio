@@ -1,16 +1,17 @@
 import React from "react";
 import diplome from "../images/diplome.png";
+import Card from "./Card";
 
 const CareerPath = () => {
   return (
-    <div className="flex flex-col text-left p-8 space-y-8 items-center justify-center mt-16 w-full rounded-3xl bg-slate-900 bg-opacity-70">
+    <Card className="flex flex-col p-8 space-y-8">
       <span className=" text-gray-200 text-4xl underline decoration-emerald-300">
         Mon parcours
       </span>
 
       <div className="flex flex-row">
         <span className="text-gray-200 text-3xl pr-4">2013</span>
-        <p className="text-gray-300 text-lg">
+        <p className="text-gray-300 text-lg text-left">
           J'ai découvert ma passion pour le développement logiciel à mes 16 ans.
           Petits projets personnels pour commencer, je comprends rapidement que
           ce nouveau monde est immense 🤯. Et cela forge ma curiosité et
@@ -20,7 +21,7 @@ const CareerPath = () => {
 
       <div className="flex flex-row">
         <span className="text-gray-200 text-3xl pr-4">2015</span>
-        <p className="text-gray-300 text-lg">
+        <p className="text-gray-300 text-lg text-left">
           J'intègre l'
           <a href="https://www.epita.fr/" className="text-orange-500">
             EPITA
@@ -36,7 +37,7 @@ const CareerPath = () => {
 
       <div className="flex flex-row">
         <span className="text-gray-200 text-3xl pr-4">2020</span>
-        <p className="text-gray-300 text-lg">
+        <p className="text-gray-300 text-lg text-left">
           Je termine mes études par un stage chez{" "}
           <a href="https://www.netatmo.com" className="text-orange-500">
             Netatmo
@@ -61,7 +62,7 @@ const CareerPath = () => {
 
       <div className="flex flex-row">
         <span className="text-gray-200 text-3xl pr-4">2021</span>
-        <p className="text-gray-300 text-lg">
+        <p className="text-gray-300 text-lg text-left">
           Je déménage sur Cassis, et suis recruté chez{" "}
           <a href="https://gojob.com/" className="text-orange-500">
             Gojob
@@ -86,7 +87,7 @@ const CareerPath = () => {
           Aujourd’hui, je me lance à mon compte !
         </span>
       </div>
-    </div>
+    </Card>
   );
 };
 
