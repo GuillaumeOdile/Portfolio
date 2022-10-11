@@ -18,7 +18,6 @@ const Home = (props: HomeProps) => {
         <Profile />
         <CareerPath />
         <MyArticles />
-        <FavoriteStack />
       </div>
     </div>
   );
