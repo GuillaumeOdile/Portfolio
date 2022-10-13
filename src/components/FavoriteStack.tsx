@@ -5,7 +5,7 @@ import Title from "./styles/Title";
 const FavoriteStack = () => {
   return (
     <Card className="flex flex-col space-y-8 p-8">
-      <Title>Ma stack technique</Title>
+      <Title>Environnement technique</Title>
     </Card>
   );
 };

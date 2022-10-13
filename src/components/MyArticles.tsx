@@ -14,7 +14,7 @@ const MyArticles = () => {
 
       <LeftCenteredParagraph>
         Le blog ici est en cours de construction 🚧 mais vous pouvez déjà
-        accéder à 3 articles que j'ai écris précédemment:
+        accéder à 3 articles que j'ai écris précédemment :
       </LeftCenteredParagraph>
 
       <div className="flex flex-col justify-center space-y-14">

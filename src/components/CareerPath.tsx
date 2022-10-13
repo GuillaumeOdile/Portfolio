@@ -26,7 +26,7 @@ const CareerPath = () => {
           J'intègre l'
           <BasicLink href="https://www.epita.fr/">EPITA</BasicLink>, une école
           d'ingénieur en informatique. Je me spécialise dans les systèmes
-          embarqués, et intègre l'incubateur de startup de mon école. Je créé
+          embarqués, et intègre l'incubateur de startup de mon école. Je crée
           AquaSmart 🐟 en 2018, qui propose une solution d'aquarium connecté
           pour les aquariophiles. Ce projet complet m'a permis de toucher à
           toutes les couches, de l'embarqué au site web en passant par
@@ -56,7 +56,7 @@ const CareerPath = () => {
       <div className="flex flex-row">
         <span className="text-gray-200 text-3xl pr-4">2021</span>
         <LeftCenteredParagraph>
-          Je déménage sur Cassis, et suis recruté chez{" "}
+          Je déménage à Cassis, et suis recruté chez{" "}
           <BasicLink href="https://gojob.com/">Gojob</BasicLink>, une startup
           dans laquelle j'apprends énormément sur le développement web grâce à
           des pairs de grande qualité ainsi qu'une culture d'entreprise
