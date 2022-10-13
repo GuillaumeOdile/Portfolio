@@ -1,6 +1,5 @@
 import CareerPath from "../components/CareerPath";
 import Contact from "../components/Contact";
-import FavoriteStack from "../components/FavoriteStack";
 import Footer from "../components/Footer";
 import MyArticles from "../components/MyArticles";
 import Profile from "../components/Profile";
