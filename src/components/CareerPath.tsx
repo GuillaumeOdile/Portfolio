@@ -71,7 +71,7 @@ const CareerPath = () => {
       </div>
 
       <div className="flex flex-row">
-        <span className="text-gray-200 text-3xl pr-4 text-center underline decoration-emerald-300">
+        <span className="text-gray-200 text-3xl pr-4 text-center ">
           Aujourd’hui, je me lance à mon compte !
         </span>
       </div>
