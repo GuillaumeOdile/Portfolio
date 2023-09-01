@@ -34,7 +34,7 @@ const MyArticles = () => {
         </a>
 
         <a
-          href="https://tech.gojob.com/clean-archi-uncle-bob/"
+          href="https://tech.gojob.com/les-bases-de-la-clean-architecture/"
           className="flex flex-col items-center space-y-4 sm:text-2xl text-xl font text-gray-300 text-center"
         >
           <AnimatedHover>
@@ -48,7 +48,7 @@ const MyArticles = () => {
           <span>Les bases de la clean architecture</span>
         </a>
         <a
-          href="https://tech.gojob.com/redux-thunk-typescript/"
+          href="https://tech.gojob.com/redux-thunk/"
           className="flex flex-col items-center space-y-4 sm:text-2xl text-xl font text-gray-300 text-center"
         >
           <AnimatedHover>

@@ -71,9 +71,28 @@ const CareerPath = () => {
       </div>
 
       <div className="flex flex-row">
-        <span className="text-gray-200 text-3xl pr-4 text-center ">
-          Aujourd’hui, je me lance à mon compte !
-        </span>
+        <span className="text-gray-200 text-3xl pr-4">2022</span>
+        <LeftCenteredParagraph>
+          Je me lance à mon compte en 2022, et je trouve rapidement mon premier
+          client{" "}
+          <BasicLink href="https://www.wizebulk.com/">Wizebulk</BasicLink>, une
+          startup dans laquelle je vais pouvoir mettre en pratique mes
+          compétences en tant que lead front et développeur fullstack. J'ai
+          l'opportunité de coacher une petite équipe Vietnamienne, et de
+          travailler sur un projet ambitieux 🚢.
+        </LeftCenteredParagraph>
+      </div>
+
+      <div className="flex flex-row">
+        <span className="text-gray-200 text-3xl pr-4">2023</span>
+        <LeftCenteredParagraph>
+          Après une superbe mission de 5 mois, je trouve mon second client{" "}
+          <BasicLink href="https://www.joynit.fr/">Joyn'it</BasicLink>, une
+          startup qui propose une solution de gestion d'évènements sous le
+          format d'un réseau social 📅. Je suis alors en charge de la refonte de
+          l'application en React (from scratch), et du passage de connaissance à
+          l'équipe en place.
+        </LeftCenteredParagraph>
       </div>
     </Card>
   );
